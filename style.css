@@ -49,10 +49,6 @@ body {
  z-index: 999;
 }
 
-.card:hover .card__side {
-  background-color: black;
-}
-
 @keyframes turnToBlack {
   100% {
     background-color: black;
@@ -95,6 +91,8 @@ body {
 
 .card:hover .card__side--back {
   transform: rotateY(0);
+  background: linear-gradient(45deg, var(--bright-blue), var(--desaturated-blue));
+
 }
 
 h1 {
